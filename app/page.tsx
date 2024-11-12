@@ -134,7 +134,7 @@ export default function LandingPage() {
             <div className="absolute inset-0 bg-blue-100 dark:bg-blue-900 rounded-lg transform -rotate-3"></div>
             <div className="relative bg-white dark:bg-gray-800 rounded-lg shadow-xl p-4">
               <Image
-                src="/placeholder.svg?height=400&width=800"
+                src="/Med-Ai.jpg"
                 width={800}
                 height={400}
                 alt="MedAI Analyzer Dashboard"
