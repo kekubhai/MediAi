@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 'use client'
 
 import { useState, useEffect } from 'react'
@@ -233,7 +234,13 @@ export default function LandingPage() {
   )
 }
 
-function FeatureCard({ icon, title, description }) {
+interface FeatureCardProps {
+  icon: JSX.Element;
+  title: string;
+  description: string;
+}
+
+function FeatureCard({ icon, title, description }: FeatureCardProps) {
   return (
     <motion.div
       className="bg-white dark:bg-gray-800 rounded-lg shadow-lg p-6 transform transition-all duration-300 hover:scale-105"

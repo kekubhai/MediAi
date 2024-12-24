@@ -32,7 +32,7 @@ export default function Home() {
       <div className="flex flex-1 flex-col">
         <header className="flex h-16 items-center justify-between border-b px-4">
           <div className="flex items-center space-x-4">
-            {/* Mobile menu */}
+            
             <Sheet>
               <SheetTrigger asChild>
                 <Button variant="ghost" size="icon" className="lg:hidden">
