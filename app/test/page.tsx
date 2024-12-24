@@ -8,6 +8,7 @@ import { Bot, MessageSquare, Settings, Menu } from "lucide-react"
 import ReportComponent from "@/components/ReportComponent"
 import ChatComponent from "@/components/chatcomponent"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
+import React from "react"
 
 export default function Home() {
   const { toast } = useToast()
@@ -22,12 +23,12 @@ export default function Home() {
 
   return (
     <div className="flex h-screen bg-background">
-      {/* Sidebar for larger screens */}
+     
       <aside className="hidden w-64 border-r bg-muted lg:block">
         <SidebarContent onReportConfirmation={onReportConfirmation} />
       </aside>
 
-      {/* Main content area */}
+     
       <div className="flex flex-1 flex-col">
         <header className="flex h-16 items-center justify-between border-b px-4">
           <div className="flex items-center space-x-4">
